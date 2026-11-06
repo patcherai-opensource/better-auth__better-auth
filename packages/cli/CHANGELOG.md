@@ -1,5 +1,16 @@
 # auth
 
+## 1.7.19
+
+### Patch Changes
+
+- [#12275](https://github.com/better-auth/better-auth/pull/12275) [`56a849b`](https://github.com/better-auth/better-auth/commit/56a849bb7c9aee7c786616cb2a143d71d1d66673) Thanks [@bytaesu](https://github.com/bytaesu)! - Fixed the CLI exiting with code 0 after a canceled or failed run, so scripts no longer continue as if it succeeded. Canceling a prompt or pressing Ctrl+C now exits with 130, and failures such as a missing configuration file or a failed `auth mcp` setup exit with 1.
+
+- Updated dependencies []:
+  - better-auth@1.7.19
+  - @better-auth/core@1.7.19
+  - @better-auth/telemetry@1.7.19
+
 ## 1.7.18
 
 ### Patch Changes
